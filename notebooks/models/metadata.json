@@ -1,0 +1,54 @@
+{
+  "model_name": "RandomForest",
+  "task": "multiclass_classification",
+  "classes": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "feature_columns": [
+    "Age",
+    "Gender",
+    "Location",
+    "GameGenre",
+    "PlayTimeHours",
+    "InGamePurchases",
+    "GameDifficulty",
+    "SessionsPerWeek",
+    "AvgSessionDurationMinutes",
+    "PlayerLevel",
+    "AchievementsUnlocked",
+    "weekly_play_minutes",
+    "achievements_per_level",
+    "age_group",
+    "is_power_user",
+    "session_intensity"
+  ],
+  "numeric_features": [
+    "Age",
+    "PlayTimeHours",
+    "InGamePurchases",
+    "SessionsPerWeek",
+    "AvgSessionDurationMinutes",
+    "PlayerLevel",
+    "AchievementsUnlocked",
+    "weekly_play_minutes",
+    "achievements_per_level",
+    "is_power_user",
+    "session_intensity"
+  ],
+  "categorical_features": [
+    "Gender",
+    "Location",
+    "GameGenre",
+    "GameDifficulty",
+    "age_group"
+  ],
+  "test_metrics": {
+    "accuracy": 0.915199200699388,
+    "macro_precision": 0.9159335789398234,
+    "macro_recall": 0.9054404891673221,
+    "macro_f1": 0.910316791187206,
+    "weighted_f1": 0.9149063577978955
+  }
+}
